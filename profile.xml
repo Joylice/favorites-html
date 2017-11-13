@@ -1,0 +1,16 @@
+<organizations>
+    <organization id="0001">
+        <name>河北</name>
+        <password>$2a$10$QV3QazIdUS00onjp8IxnB.GPqozYHUDCVj4taNc/a4qZqeDSqX7kK</password>
+        <!--若存在多个，则用,分隔-->
+        <roles>ROLE_USER</roles>
+        <des>测试账号</des>
+    </organization>
+    <organization id="0002">
+        <name>河南</name>
+        <password>$2a$10$QV3QazIdUS00onjp8IxnB.GPqozYHUDCVj4taNc/a4qZqeDSqX7kK</password>
+        <!--若存在多个，则用,分隔-->
+        <roles>ROLE_USER</roles>
+        <des>测试账号</des>
+    </organization>
+</organizations>

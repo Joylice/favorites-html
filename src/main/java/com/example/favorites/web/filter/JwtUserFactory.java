@@ -17,15 +17,15 @@ public class JwtUserFactory {
     }
 
     public static JwtUser create(User user) {
-        List<String> authorities = new ArrayList<>();
-        authorities.add("ROLE_USER");
+//        List<String> authorities = new ArrayList<>();
+//        authorities.add("ROLE_USER");
         return new JwtUser(
                 user.getId(),
                 user.getUserName(),
                 user.getPassWord(),
                 user.getEmail(),
                 //mapToGrantedAuthorities(user.getRoles()),
-                mapToGrantedAuthorities(authorities),
+                mapToGrantedAuthorities(user.getRoles()),
                 user.getLastPasswordResetDate()
         );
     }
