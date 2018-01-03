@@ -32,6 +32,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-security')
+    compile("org.springframework.boot:spring-boot-starter-amqp")
+
     compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.0'
 //    compile("org.projectlombok:lombok:${lombokVersion}")
 //    compile group: 'org.projectlombok', name: 'lombok-maven', version: '1.16.18.1', ext: 'pom'
@@ -43,6 +45,7 @@ dependencies {
     compile 'org.webjars.bower:vue-resource:0.7.0'
     compile group: 'org.webjars', name: 'webjars-locator'
     compile group: 'org.jsoup', name: 'jsoup', version: '1.9.2'
+
 
 
     compile group: 'org.springframework.session', name: 'spring-session-data-redis'

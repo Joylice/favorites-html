@@ -13,5 +13,6 @@ public class FavoritesWebApplication {
 	public static void main(String[] args) throws SAXException, ParserConfigurationException, IOException {
 
 		SpringApplication.run(FavoritesWebApplication.class, args);
+
 	}
 }
